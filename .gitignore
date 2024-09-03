@@ -1,0 +1,97 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# If your database settings include a SQLite file, ignore it
+*.sqlite3
+
+# Django migrations
+*/migrations/*
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# IDEs and editors
+.idea/
+.vscode/
+.vscode/*.*
+*.sublime-project
+*.sublime-workspace
+*.vscode
+
+# Files that might appear in some projects
+!.env
+.env
+.env.*
+.venv/
+__pycache__/
+*.pid
+*.swp
+*.swo
+*.swn
+
+# macOS files
+.DS_Store
+*.DS_Store
+
+# pytest
+.pytest_cache/
+coverage/
+htmlcov/
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Ansible
+.vagrant/
+.vagrant/
+
+# Env files
+.env.local
+.env.production
+.env.test
+.env.*
